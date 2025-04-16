@@ -3,6 +3,10 @@ import 'react-quill-new/dist/quill.snow.css';
 
 const catagories = [
     {
+        label: "General",
+        value: "general"
+    },
+    {
         label: "Web Design",
         value: "web-design"
     },
