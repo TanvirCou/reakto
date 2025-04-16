@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import { ClerkProvider } from '@clerk/clerk-react';
 import Register from './pages/Register';
 import SinglePost from './pages/SinglePost';
+import CreatePost from './pages/CreatePost';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/single-post",
         element: <SinglePost />
+      },
+      {
+        path: "/create-post",
+        element: <CreatePost />
       },
     ]
   }
