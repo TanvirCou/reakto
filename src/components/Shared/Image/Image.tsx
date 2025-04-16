@@ -4,8 +4,8 @@ type ImageType = {
     src: string;
     alt: string;
     className?: string;
-    width: number;
-    height: number
+    width?: number;
+    height?: number
 }
 
 const Image = ({ src, alt, className, width, height }: ImageType) => {
@@ -19,6 +19,12 @@ const Image = ({ src, alt, className, width, height }: ImageType) => {
             alt={alt}
             height={height}
             width={width}
+            transformation={[
+                {
+                    width: width,
+                    height: height
+                }
+            ]}
         />
     )
 }
