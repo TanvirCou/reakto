@@ -9,8 +9,8 @@ const PostListItem = () => {
                 <Image src='https://ik.imagekit.io/25kitplzn/postImg.jpeg' alt='' className='rounded-2xl object-cover' width={650} />
             </div>
 
-            <div className='w-full lg:w-2/3 flex flex-col gap-3'>
-                <p className='text-xl lg:text-4xl font-semibold'>Lorem ipsum dolor sit amet conse ctetur adipisicing elit.</p>
+            <div className='w-full lg:w-2/3 flex flex-col gap-2'>
+                <p className='text-xl lg:text-2xl font-semibold'>Lorem ipsum dolor sit amet conse ctetur adipisicing elit.</p>
 
                 <div className='flex items-center gap-2 text-sm'>
                     <p className='font-semibold'>Written by</p>
